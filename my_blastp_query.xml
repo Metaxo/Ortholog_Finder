@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8923</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>300</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8923</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>300</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_172369222.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina jiandibaonis]</Hit_def>
+  <Hit_accession>WP_172369222</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>5.51123e-72</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>DFPQQLEACVKQANQALSRFIAPLPFQNTPVVETMQ----YGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADM--PEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>NLNEFIEKNVREIENMLSELLSQ---KNTP--ETLQASMIYSVNAGGKKIRPLLVLATLEDLGASSKDALLVACAVELIHTYSLIHDDLPSMDNDDFRRGKLTNHKVYGEAMAILAGDALQSLAFEILTNLNNTPPEIA----VKLIRLLSIASGAEGMVGGQVLDLEGEKMDLTLEQLKRIHLNKTGALLSFCIEAGALLAGVDNKKMIN-LKEFAKNIGLTFQIQDDILDVTSTTEELGKNVGSDVSSGKVTYPSLLGLEKAKEQLDYHHQLARNSLSFIDNEE---SLLLQFADFIVNR</Hsp_hseq>
+      <Hsp_midline>+  + +E  V++    LS  ++    +NTP  ET+Q    Y    GGK++RP LV AT    G S+      A AVE IH YSLIHDDLP+MD+DD RRG  T H  +GEA AILAGDALQ+LAF IL++ +   PE++    + +I  L+ ASG  GM GGQ LDL+ E   + L+ L+RIH +KTGAL+   +  GAL AG   ++ +  L ++A++IGL FQ+QDDILDV   T  LGK  G+D   GK TYP+LLGLE+A+++       AR SL  +  +    S L   AD+I+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_212605976.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. Marseille-Q4063] &gt;gb|QUW22285.1| polyprenyl synthetase family protein [Sporosarcina sp. Marseille-Q4063]</Hit_def>
+  <Hit_accession>WP_212605976</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>1.63673e-70</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDAD--MPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>SMIYSVNAGGKRIRPLLVLATLEDLGASSKDALQVACAVELIHTYSLIHDDLPSMDNDDFRRGKLTNHKVYGEAMAILAGDALQTLAFEILTSLNNTSPEVA----IKLIRLLSVASGAEGMVAGQVLDIEGEEMDLTLEQLERIHLNKTGALLSFCIEAGALLA-DVDNENMINLQKFAKNIGLTFQIQDDILDVTSTTEELGKNVGSDESSGKVTYPSLLGLDKAKEQLAIHHQLARNSLAFINNEE---SLLLQFADYIVNR</Hsp_hseq>
+      <Hsp_midline>+M Y    GGKR+RP LV AT    G S+      A AVE IH YSLIHDDLP+MD+DD RRG  T H  +GEA AILAGDALQTLAF IL+  +   PEV+    I +I  L+ ASG  GM  GQ LD++ E   + L+ LERIH +KTGAL+   +  GAL A D     +  L K+A++IGL FQ+QDDILDV   T  LGK  G+D+  GK TYP+LLGL++A+++       AR SL  +  +    S L   ADYI+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_053434451.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina globispora] &gt;gb|KON87104.1| farnesyl-diphosphate synthase [Sporosarcina globispora]</Hit_def>
+  <Hit_accession>WP_053434451</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>2.29951e-70</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>QANQALSRFIAPLPFQNTPVVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>QIKNYVSKLNAP-----TEIKESMLYSLEAGGKRIRPMLLFASLAAFGEDTLKGMWTAAAIEMVHTYSLIHDDLPSMDNDDLRRGKPTNHKVFGEAFAILAGDALLTYSFQSIAETPDEFASADTKLSLIMELSKASGAEGMVGGQAADIKGEGKQLGIEDLEYIHVHKTGKLLECSVVSGAILA-NASQETIQTLSAFAYHLGLAFQIRDDILDLEGTEELIGKPVGSDESKNKSTYPSLLTMNGAKEALANHIRSAKEKLK---ETGLQTDLLEEITDLIANRD</Hsp_hseq>
+      <Hsp_midline>Q    +S+  AP     T + E+M Y    GGKR+RP L++A+   FG  T      AAA+E +H YSLIHDDLP+MD+DDLRRG PT H  FGEA AILAGDAL T +F  +++      S   ++S+I EL+ ASG  GM GGQA D+  EGK + ++ LE IH HKTG L+  +V  GA+ A +  +  +  L  +A  +GLAFQ++DDILD+ G    +GK  G+D+   KSTYP+LL +  A++   + I  A++ LK   E  L T  LE + D I  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_210468957.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. 6E9]</Hit_def>
+  <Hit_accession>WP_210468957</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>5.56522e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>FPQQLEACVKQANQALSRFIAPLPFQ-NTP--VVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADM--PEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>MKNNLNEFIEQNVHEIENRITELLSQINTPKTLHSSMIYSVRAGGKKIRPLLVLATLEDLGASSKDALQVACAVELIHTYSLIHDDLPSMDNDDYRRGKLTNHKVYGEAMAILAGDALQSLAFEILTNLNNTPPEIA----IKLIRLLSIASGAEGMVGGQVLDLEGEKMDLTLEQLKRIHLNKTGALLSFCIEAGALLAGVDDEKMIN-LQEFAKNIGLTFQIQDDILDVTSTTEELGKNVGSDVSSGKVTYPSLLGLEKAKEQLDYHHQLARNSLSFIDNEE---SLLLQFADFIVNR</Hsp_hseq>
+      <Hsp_midline>    L   ++Q    +   I  L  Q NTP  +  +M Y    GGK++RP LV AT    G S+      A AVE IH YSLIHDDLP+MD+DD RRG  T H  +GEA AILAGDALQ+LAF IL++ +   PE++    I +I  L+ ASG  GM GGQ LDL+ E   + L+ L+RIH +KTGAL+   +  GAL AG    + +  L ++A++IGL FQ+QDDILDV   T  LGK  G+D   GK TYP+LLGLE+A+++       AR SL  +  +    S L   AD+I+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_187044995.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. resist] &gt;gb|QNK86370.1| polyprenyl synthetase family protein [Sporosarcina sp. resist]</Hit_def>
+  <Hit_accession>WP_187044995</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>5.29129e-69</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>TPVVET----MQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQL-AEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>TNVSETLKSSMAYSINAGGKRIRPLLVLATLEDLGVESKDALTVACAAELLHTYSLIHDDLPCMDDDNFRRGKPTNHIVYGEGVAVLAGDALQTLAFGSLT--HLSDTSAQDTIRIIRLLSDASGATGMVGGQMLDIEGETKSVSLSELETIHVNKTGALLSFCIGAGAILAGLDEEKSAKLKD-FAYHIGLAFQIQDDILDITSTTEELGKTAGSDALSEKSTYPSLLGLEGAMARLAEHHQSARESLAFLEAEHPL----LGLFADYIVERE</Hsp_hseq>
+      <Hsp_midline>T V ET    M Y    GGKR+RP LV AT    GV +      A A E +H YSLIHDDLP MDDD+ RRG PT H+ +GE  A+LAGDALQTLAF  L+   + + S +D I +I  L+ ASG  GM GGQ LD++ E K V L  LE IH +KTGAL+   +  GA+ AG    ++  + D +A  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE A  +  +    AR+SL  L AE  L    L   ADYI++R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_067209885.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina psychrophila] &gt;gb|AMQ06677.1| farnesyl-diphosphate synthase [Sporosarcina psychrophila]</Hit_def>
+  <Hit_accession>WP_067209885</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.5285e-68</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>TPVVET----MQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGA-LSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQL-AEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>TNVSETLKSSMAYSINAGGKRIRPLLVLATLEDLGVESKDALTVACAAELLHTYSLIHDDLPCMDDDNFRRGKPTNHIVYGEGVAVLAGDALQTLAFGSLT--HLSDTSAQDTIRIIRLLSDASGATGMVGGQMLDIEGETKSVSLSELETIHVNKTGALLSFCIGAGAILAALDEEKSA--KLKDFAYHIGLAFQIQDDILDITSTTEELGKTAGSDALSEKSTYPSLLGLEGAMARLAEHHQSARESLAFLEAEHPL----LGLFADYIVER</Hsp_hseq>
+      <Hsp_midline>T V ET    M Y    GGKR+RP LV AT    GV +      A A E +H YSLIHDDLP MDDD+ RRG PT H+ +GE  A+LAGDALQTLAF  L+   + + S +D I +I  L+ ASG  GM GGQ LD++ E K V L  LE IH +KTGAL+   +  GA L+A D+ + A   L  +A  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE A  +  +    AR+SL  L AE  L    L   ADYI++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_099626549.1|</Hit_id>
+  <Hit_def>MULTISPECIES: polyprenyl synthetase family protein [unclassified Sporosarcina] &gt;gb|PIC66906.1| farnesyl-diphosphate synthase [Sporosarcina sp. P16a] &gt;gb|PIC84822.1| farnesyl-diphosphate synthase [Sporosarcina sp. P1] &gt;gb|PIC89407.1| farnesyl-diphosphate synthase [Sporosarcina sp. P21c] &gt;gb|PIC92358.1| farnesyl-diphosphate synthase [Sporosarcina sp. P25]</Hit_def>
+  <Hit_accession>WP_099626549</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>3.51716e-68</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSVDAVKVASSVELIHTYSLIHDDLPCMDNDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEQQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQLR---RFSHNIGLAFQIQDDILDVTATTEQLGKTANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALQSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  +++DA   A++VE IH YSLIHDDLP MD+DD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R  L    +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HJF33055.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina psychrophila]</Hit_def>
+  <Hit_accession>HJF33055</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>4.60988e-68</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>NQALSRFIAPLPFQNTPVVE------------------TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>HKELQRFIA----EKLPVIDEKLNSLLGAANVSETLKSSMAYSINAGGKRIRPLLVLATLEDLGVDSQDALTVACAAELLHTYSLIHDDLPSMDDDNFRRGKPTNHIIYGEAVAVLAGDALQTLAFGSLT--HLSDTSAQDTIRIIRLLADASGSTGMVGGQMLDIEGETKTLSLFELENIHVNKTGALLSFCIVAGAILAGLNEEKTAKLRD-FAYHIGLAFQIQDDILDITSTTEELGKTAGSDALSEKSTYPSLLGLEGAMSRLEKHHQCARDSLAFL---EMEHPLLGLFADYIVER</Hsp_hseq>
+      <Hsp_midline>++ L RFIA    +  PV++                  +M Y    GGKR+RP LV AT    GV +      A A E +H YSLIHDDLP+MDDD+ RRG PT H+ +GEA A+LAGDALQTLAF  L+   + + S +D I +I  LA ASG  GM GGQ LD++ E K + L  LE IH +KTGAL+   +  GA+ AG    +   + D +A  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE A  +       AR SL  L    ++   L   ADYI++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_085130498.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina ureae] &gt;gb|ARJ37466.1| farnesyl-diphosphate synthase [Sporosarcina ureae]</Hit_def>
+  <Hit_accession>WP_085130498</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.72585e-67</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSVDAVKVASSVELIHTYSLIHDDLPCMDNDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEQQLLPLAELKEVHIHKTGALLSYCIEAGAVLAQATDEQREQLR---RFSHNIGLAFQIQDDILDVTATTEQLGKTANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALQSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  +++DA   A++VE IH YSLIHDDLP MD+DD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  L+ +H HKTGAL+   +  GA+   A D+ R  L    +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_039043842.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. ZBG7A]</Hit_def>
+  <Hit_accession>WP_039043842</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>1.30518e-64</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>NTPVV--ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>NYPQVLQEAMAYSVNAGGKRIRPLLVLAVLQDLEVTSKDAVQVAGAIELIHTYSLIHDDLPCMDDDDFRRGNPTNHIVFGEATAVLAADALQTLAFEEL--ASLQHTDPATMLAILKAVSTASGASGMVGGQILDMQGEGKQLSLTELEEIHVHKTGALLASCVESGALLAGVPEVK-MESLRIFSRNIGLAFQIKDDILDVTASTEQLGKTANKDTASAKSTYPALLGLEGAQAK---LENHHKQALDALEEIGLGSSLLSQIADYIINRN</Hsp_hseq>
+      <Hsp_midline>N P V  E M Y    GGKR+RP LV A      V++      A A+E IH YSLIHDDLP MDDDD RRG PT H+ FGEA A+LA DALQTLAF  L  A +        ++++  +++ASG +GM GGQ LD+  EGK + L  LE IH HKTGAL+ + V  GAL AG    + +  L  ++ +IGLAFQ++DDILDV   T  LGK    D    KSTYPALLGLE A+ K   L +  +Q+L  L E  L +S L  +ADYII RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_075527956.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina ureilytica] &gt;gb|AOV07815.1| farnesyl-diphosphate synthase [Sporosarcina ureilytica]</Hit_def>
+  <Hit_accession>WP_075527956</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>4.05884e-64</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>MLYSVHAGGKRIRPLLVLATLEDLGVHAEDALEVAAAIELIHTYSLIHDDLPSMDDDDLRRGKPTNHKVYGEALAILAGDALQTLAFETL--ASLPNTRPEKTIELIRLLAIASGANGMVAGQVLDLEGEKKSLSLQELELIHLNKTGALLTFCIVSGGILA-DIDVEKMKAIKAYAENIGLAFQIQDDILDVTSTTEELGKNAGSDESSEKTTYPIVLGLEGARKQLMHHHLLAKQSLAFLEK---DDSLLALFADYIVERN</Hsp_hseq>
+      <Hsp_midline>M Y    GGKR+RP LV AT    GV        AAA+E IH YSLIHDDLP+MDDDDLRRG PT H  +GEA AILAGDALQTLAF  L  A +P       I +I  LA ASG  GM  GQ LDL+ E K + L  LE IH +KTGAL+   +  G + A D     +  +  YAE+IGLAFQ+QDDILDV   T  LGK  G+D+   K+TYP +LGLE ARK+       A+QSL  L +   D S L   ADYI++RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_115361087.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina pasteurii] &gt;gb|QBQ07070.1| polyprenyl synthetase family protein [Sporosarcina pasteurii]</Hit_def>
+  <Hit_accession>WP_115361087</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>8.37058e-64</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>SMLYSIHAGGKRIRPLLVLATLEDLDVHADHALEVAAAIELIHTYSLIHDDLPSMDDDDMRRGKPTNHKVYGEAMAILAGDALQTLAFETL--ASLPNIRPEKSIELIRLLAIASGAKGMVAGQVLDLEGEKKSLTLQDLELIHLNKTGALLTYCIEAGGILADIEAEK-MKAIKVYAENIGLAFQIQDDILDVTSTTEELGKNAGSDESSEKTTYPIVLGLEGAKKQLMHHHSLAKQSLAFLEK---DDSLLALFADYIVERN</Hsp_hseq>
+      <Hsp_midline>+M Y    GGKR+RP LV AT     V  +     AAA+E IH YSLIHDDLP+MDDDD+RRG PT H  +GEA AILAGDALQTLAF  L  A +P +     I +I  LA ASG  GM  GQ LDL+ E K + L  LE IH +KTGAL+   +  G + A  +  + +  +  YAE+IGLAFQ+QDDILDV   T  LGK  G+D+   K+TYP +LGLE A+K+       A+QSL  L +   D S L   ADYI++RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>emb|SUJ04766.1|</Hit_id>
+  <Hit_def>Farnesyl diphosphate synthase [Sporosarcina pasteurii]</Hit_def>
+  <Hit_accession>SUJ04766</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>9.00097e-64</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>SMLYSIHAGGKRIRPLLVLATLEDLDVHADHALEVAAAIELIHTYSLIHDDLPSMDDDDMRRGKPTNHKVYGEAMAILAGDALQTLAFETL--ASLPNIRPEKSIELIRLLAIASGAKGMVAGQVLDLEGEKKSLTLQDLELIHLNKTGALLTYCIEAGGILADIEAEK-MKAIKVYAENIGLAFQIQDDILDVTSTTEELGKNAGSDESSEKTTYPIVLGLEGAKKQLMHHHSLAKQSLAFLEK---DDSLLALFADYIVERN</Hsp_hseq>
+      <Hsp_midline>+M Y    GGKR+RP LV AT     V  +     AAA+E IH YSLIHDDLP+MDDDD+RRG PT H  +GEA AILAGDALQTLAF  L  A +P +     I +I  LA ASG  GM  GQ LDL+ E K + L  LE IH +KTGAL+   +  G + A  +  + +  +  YAE+IGLAFQ+QDDILDV   T  LGK  G+D+   K+TYP +LGLE A+K+       A+QSL  L +   D S L   ADYI++RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_248508675.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. NCCP-2222] &gt;dbj|GKV54186.1| farnesyl diphosphate synthase [Sporosarcina sp. NCCP-2222]</Hit_def>
+  <Hit_accession>WP_248508675</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>1.0848e-63</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>NQALSRFI-APLPFQN-------------TPVVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>NERLKRFIDEKMPIIDQAMEGMLEEAEIPSSLKESMAYSIQAGGKRIRPMLVLATLEDLQATSEDAVAVACAVEMIHTYSLIHDDLPSMDDDDFRRGKPTNHKVYGEAVAVLAGDALQTLAFKQLS--TLKDTHPQDALRIIALLADASGPSGMVGGQVLDIEGEHRSLSLDQLETVHLHKTGALLSFCIEAGAILA-KANEEQIEKLKDYAKNIGLAFQIKDDILDITATTEQLGKTAGSDAEREKSTYPALLGLEGAEDRLRKHHHSALESIKFLTD---DQPLLGLFADYIVDRN</Hsp_hseq>
+      <Hsp_midline>N+ L RFI   +P  +             + + E+M Y    GGKR+RP LV AT      ++    A A AVE IH YSLIHDDLP+MDDDD RRG PT H  +GEA A+LAGDALQTLAF  LS   + +   +D + +I+ LA ASG +GM GGQ LD++ E + + LD LE +H HKTGAL+   +  GA+ A       +  L  YA++IGLAFQ++DDILD+   T  LGK  G+D +  KSTYPALLGLE A  + R     A +S+K L +   D   L   ADYI+ RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_233505314.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. BI001-red]</Hit_def>
+  <Hit_accession>WP_233505314</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>1.76379e-63</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>NTPVV--ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>NYPKVLQEAMAYSVNAGGKRIRPLLVLAVLHDLDVTSKDAVQVAGAIELIHTYSLIHDDLPCMDDDDFRRGNPTNHIVYGEATAVLAADALQTLAFEEL--ASLQHTAPATMLAILRAVSNASGAAGMVGGQILDMQGEGKQLTLTELEEIHVHKTGALLACCIESGALLANATDAK-MQNLRTFSRNIGLAFQIKDDILDVTASTEQLGKTANKDTASDKSTYPALLGLEGAQAK---LADHHKQALDALEGIDLGSSLLAQIADYIIDRN</Hsp_hseq>
+      <Hsp_midline>N P V  E M Y    GGKR+RP LV A  H   V++      A A+E IH YSLIHDDLP MDDDD RRG PT H+ +GEA A+LA DALQTLAF  L  A +   +    ++++  +++ASG AGM GGQ LD+  EGK + L  LE IH HKTGAL+   +  GAL A     + +  L  ++ +IGLAFQ++DDILDV   T  LGK    D    KSTYPALLGLE A+ K   L D  +Q+L  L    L +S L  +ADYII RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|REB10189.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. BI001-red]</Hit_def>
+  <Hit_accession>REB10189</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.84485e-63</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>NTPVV--ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>NYPKVLQEAMAYSVNAGGKRIRPLLVLAVLHDLDVTSKDAVQVAGAIELIHTYSLIHDDLPCMDDDDFRRGNPTNHIVYGEATAVLAADALQTLAFEEL--ASLQHTAPATMLAILRAVSNASGAAGMVGGQILDMQGEGKQLTLTELEEIHVHKTGALLACCIESGALLANATDAK-MQNLRTFSRNIGLAFQIKDDILDVTASTEQLGKTANKDTASDKSTYPALLGLEGAQAK---LADHHKQALDALEGIDLGSSLLAQIADYIIDRN</Hsp_hseq>
+      <Hsp_midline>N P V  E M Y    GGKR+RP LV A  H   V++      A A+E IH YSLIHDDLP MDDDD RRG PT H+ +GEA A+LA DALQTLAF  L  A +   +    ++++  +++ASG AGM GGQ LD+  EGK + L  LE IH HKTGAL+   +  GAL A     + +  L  ++ +IGLAFQ++DDILDV   T  LGK    D    KSTYPALLGLE A+ K   L D  +Q+L  L    L +S L  +ADYII RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_067403668.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. HYO08] &gt;gb|KXH87488.1| farnesyl-diphosphate synthase [Sporosarcina sp. HYO08]</Hit_def>
+  <Hit_accession>WP_067403668</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>2.33563e-63</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>ESMAYSINAGGKRIRPLLVLATLKDLQADSKDALAVAGAIELIHTYSLIHDDLPSMDDDDYRRGKLTNHKVFGEAVAVLAGDALQALAFQMLS--ELKETNPADALRLMHLLGTASGAAGMVGGQMLDLEGEQKKLSLSELEQIHIHKTGALLSFCIEAGAILAGLESEKA-ENLKEYAYHIGLAFQIQDDILDVTATTEQLGKTAGSDTASEKSTYPALLGLDGAQERLMAHHQSAKEALAFL---EVETSLLALFADYIVER</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV AT       +    A A A+E IH YSLIHDDLP+MDDDD RRG  T H  FGEA A+LAGDALQ LAF +LS  ++ E +  D + ++  L +ASG AGM GGQ LDL+ E K + L  LE+IH HKTGAL+   +  GA+ AG +  +A   L +YA  IGLAFQ+QDDILDV   T  LGK  G+D    KSTYPALLGL+ A+++       A+++L  L    ++TS L   ADYI++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_238081898.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. MB25]</Hit_def>
+  <Hit_accession>WP_238081898</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>2.93025e-63</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>NQALSRFI-APLPFQN-------------TPVVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>NERLKRFIDEKMPIIDQAMEGMLEEAGIPSSLKDSMAYSIQAGGKRIRPMLVLATLEDLQASSEDAVAVACAVEMIHTYSLIHDDLPSMDDDDFRRGKPTNHKVYGEAVAVLAGDALQTLAFKQLS--TLKETDPQDALRIITLLADASGPSGMVGGQVLDIEGEHRSLSLEQLETVHLHKTGALLSFCIEAGAILAKANEEQIVKLKD-YAKNIGLAFQIKDDILDITSTTEQLGKTAGSDAEREKSTYPALLGLDGAEERLRKHHQSALESIEFLAD---DQPLLGLFADYIVDRN</Hsp_hseq>
+      <Hsp_midline>N+ L RFI   +P  +             + + ++M Y    GGKR+RP LV AT      S+    A A AVE IH YSLIHDDLP+MDDDD RRG PT H  +GEA A+LAGDALQTLAF  LS   + E   +D + +I+ LA ASG +GM GGQ LD++ E + + L+ LE +H HKTGAL+   +  GA+ A     + + + D YA++IGLAFQ++DDILD+   T  LGK  G+D +  KSTYPALLGL+ A ++ R     A +S++ LA+   D   L   ADYI+ RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_225217605.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. Sa3CUA8]</Hit_def>
+  <Hit_accession>WP_225217605</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>1.20892e-62</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>QNTPVV--ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>KNYPEILHEAMAYSVNAGGKRIRPLLVLAVLQDLEVASEDAIQVAGAIELIHTYSLIHDDLPCMDDDDFRRGNPTNHIVFGEATAVLAADALQTLAFEQL--ATLQHTDPATMLAILKAVSIASGASGMVGGQILDMQGEGKQLSLTELEEIHIHKTGALLACCIESGALLA-KVSESKMEILRTFSRHIGLAFQIKDDILDVTASTEQLGKTANKDTASEKSTYPALLGLEGAQAK---LEDHHKQALDALEEIGLGSSLLARIGDYIINRN</Hsp_hseq>
+      <Hsp_midline>+N P +  E M Y    GGKR+RP LV A      V++      A A+E IH YSLIHDDLP MDDDD RRG PT H+ FGEA A+LA DALQTLAF  L  A +        ++++  ++ ASG +GM GGQ LD+  EGK + L  LE IH HKTGAL+   +  GAL A       + +L  ++  IGLAFQ++DDILDV   T  LGK    D    KSTYPALLGLE A+ K   L D  +Q+L  L E  L +S L  + DYII RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MBD7906786.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. Sa3CUA8]</Hit_def>
+  <Hit_accession>MBD7906786</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>2.26133e-62</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>QNTPVV--ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>KNYPEILHEAMAYSVNAGGKRIRPLLVLAVLQDLEVASEDAIQVAGAIELIHTYSLIHDDLPCMDDDDFRRGNPTNHIVFGEATAVLAADALQTLAFEQL--ATLQHTDPATMLAILKAVSIASGASGMVGGQILDMQGEGKQLSLTELEEIHIHKTGALLACCIESGALLA-KVSESKMEILRTFSRHIGLAFQIKDDILDVTASTEQLGKTANKDTASEKSTYPALLGLEGAQAK---LEDHHKQALDALEEIGLGSSLLARIGDYIINRN</Hsp_hseq>
+      <Hsp_midline>+N P +  E M Y    GGKR+RP LV A      V++      A A+E IH YSLIHDDLP MDDDD RRG PT H+ FGEA A+LA DALQTLAF  L  A +        ++++  ++ ASG +GM GGQ LD+  EGK + L  LE IH HKTGAL+   +  GAL A       + +L  ++  IGLAFQ++DDILDV   T  LGK    D    KSTYPALLGLE A+ K   L D  +Q+L  L E  L +S L  + DYII RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_060209428.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina koreensis]</Hit_def>
+  <Hit_accession>WP_060209428</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>2.95398e-62</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMLYSVNAGGKRIRPLLVLAVLADFGKESADELKVASAAELIHTYSLIHDDLPCMDDDDFRRGKPTNHRVYGEATAVLAGDAMQTRAFGIL--ASLEHARPDQVIKLIASLADASGANGMVGGQVLDMEGETASLSLHELEEVHLHKTGALLSFCIEAGAI-LSDAQDAELEQLRKYAKNIGLAFQIKDDILDVTSTTEQLGKTANSDAASDKSTYPSLLGLEGAQRQLEKYHRDAVESLAFLQKEN---SMLKLFADYIVQRN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A    FG  +      A+A E IH YSLIHDDLP MDDDD RRG PT H  +GEA A+LAGDA+QT AF IL  A +        I +I+ LA ASG  GM GGQ LD++ E   + L  LE +H HKTGAL+   +  GA+   D     L  L KYA++IGLAFQ++DDILDV   T  LGK   +D    KSTYP+LLGLE A+++      DA +SL  L +++   S L+  ADYI+QRN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|MBB4825682.1|</Hit_id>
+  <Hit_def>geranylgeranyl diphosphate synthase type II [Sporosarcina luteola]</Hit_def>
+  <Hit_accession>MBB4825682</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>4.40416e-62</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>NQALSRFIA-PLPFQNTPVV-------------ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLA-EQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>NDRLKRFIEEKMPIIDTAMAGMLEEAGIPSSLRESMAYSIRAGGKRIRPMLVLATLEDLHASSADAVTVACAVEMIHTYSLIHDDLPSMDDDDFRRGKPTNHKVYGEAIAVLAGDALQTLAFKQLS--TLKETHPQDALRIITLLAEASGPRGMVGGQVLDIEGEHRSLSLEQLETVHLHKTGALLSFCIEAGAILAKANEEQIIK-LKEYARNIGLAFQIKDDILDITATTEQLGKTAGSDVEREKSTYPALLGLNGAEERLRQHHQSALASIQFLPDEQSL----LGLFADYIVDRN</Hsp_hseq>
+      <Hsp_midline>N  L RFI   +P  +T +              E+M Y    GGKR+RP LV AT      S+      A AVE IH YSLIHDDLP+MDDDD RRG PT H  +GEA A+LAGDALQTLAF  LS   + E   +D + +I+ LA ASG  GM GGQ LD++ E + + L+ LE +H HKTGAL+   +  GA+ A     + +  L +YA +IGLAFQ++DDILD+   T  LGK  G+D +  KSTYPALLGL  A ++ R     A  S++ L  EQSL    L   ADYI+ RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_191692832.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. Sa2YVA2] &gt;gb|MBD7983196.1| polyprenyl synthetase family protein [Sporosarcina sp. Sa2YVA2]</Hit_def>
+  <Hit_accession>WP_191692832</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>5.89425e-62</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMIYSVNAGGKRIRPLLVLAVLEDFMKTSKDALKVACAVELIHTYSLIHDDLPCMDDDDYRRGKLTNHKVFGEATAVLAGDALQTLAFTIL--ASLEEVDSSKAIRLVGLLASASGAKGMVGGQILDMEGEKVSLTLEQLEEVHLHKTGALLSFCIEAGAVLANATELETCQ-LREYSKNIGLAFQIKDDILDITSTTELLGKPVNSDTASQKSTYPSLLGLDGAKQQLQKYHENALESLSFLDKEG---SLLELFADYIVQRD</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A    F  ++      A AVE IH YSLIHDDLP MDDDD RRG  T H  FGEA A+LAGDALQTLAF+IL  A + EV     I ++  LASASG  GM GGQ LD++ E   + L+ LE +H HKTGAL+   +  GA+ A          L +Y+++IGLAFQ++DDILD+   T  LGK   +D    KSTYP+LLGL+ A+++ +   ++A +SL  L ++    S LE  ADYI+QR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_239432271.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. ACRSL]</Hit_def>
+  <Hit_accession>WP_239432271</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>1.13853e-61</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>QNTP--VVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ENSPTSLKDSMLYSVNAGGKRIRPLLVLAVLADFEKESKDDLKVACAVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEATAVLAGDALQTRAFGIL--ASLEETKPEQTIKLISLLADASGANGMVGGQILDMEGETAALSLSELEEVHMHKTGALLSFCIEAGAI-LSNANESELVKLRNYAKNIGLAFQIKDDILDVTSTTEQLGKTANSDAASDKSTYPSLLGLEGAQQQLEKYHREAVESLDFLQKEN---SMLQLFADYIVQRD</Hsp_hseq>
+      <Hsp_midline>+N+P  + ++M Y    GGKR+RP LV A    F   +      A AVE IH YSLIHDDLP MDDDD RRG PT H  +GEA A+LAGDALQT AF IL  A + E      I +IS LA ASG  GM GGQ LD++ E   + L  LE +H HKTGAL+   +  GA+   +     L  L  YA++IGLAFQ++DDILDV   T  LGK   +D    KSTYP+LLGLE A+++      +A +SL  L +++   S L+  ADYI+QR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_192597604.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina limicola] &gt;gb|MBE1553791.1| geranylgeranyl diphosphate synthase type II [Sporosarcina limicola]</Hit_def>
+  <Hit_accession>WP_192597604</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>2.17538e-61</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>QQLEACVKQANQALS-RFIAPLPFQNTP--VVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>EVLERFIKENLPAIEGKLNSLLTCENIPKTLQSSMVYSVNAGGKRIRPLLVLATLEDLGATSKDALTVACAVELIHTYSLIHDDLPCMDDDDFRRGKPTNHRMYGEAVAVLAGDALHTLAFNSLT--KLTDTSAEDSLHIMQKLSDASGANGMVGGQMLDLEGESKSLSLTELEKVHVNKTGALLLFCVEAGAILAG-LNQEKITQLKNYAWNIGLAFQIKDDILDITSTTEELGKTVGSDNSSHKSTYPSLLGLPTAGERLAEYHQIAKESLAFLGKEQL---LLGLFADYIVDR</Hsp_hseq>
+      <Hsp_midline>+ LE  +K+   A+  +  + L  +N P  +  +M Y    GGKR+RP LV AT    G ++      A AVE IH YSLIHDDLP MDDDD RRG PT H  +GEA A+LAGDAL TLAF+ L+   + + S  D + ++ +L+ ASG  GM GGQ LDL+ E K + L  LE++H +KTGAL+   V  GA+ AG   +  +  L  YA +IGLAFQ++DDILD+   T  LGK  G+D    KSTYP+LLGL  A ++  +    A++SL  L ++ L    L   ADYI+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_203246952.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina beigongshangi]</Hit_def>
+  <Hit_accession>WP_203246952</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>5.80676e-61</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>LSRFIAPLPFQNTPVVETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLD-----TSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>LNHLLANLNVSET-LKSSMSYSINAGGKRIRPLLVLATLEDLDVQSADALTVACAVELIHTYSLIHDDLPCMDDDDYRRGKLTNHKVYGEGVAVLAGDALQTLAFEALT--TLQETSSKDALQLVKMLASASGAMGMVGGQMLDIEGEARPLSLMELETVHVNKTGALLSFCIEAGAVMAGLEVEKA-ANLNVFAWNIGLAFQIQDDILDITSTTEALGKTAGSDISSDKSTYPSLLGLEGARKR---LAEHHR-----LAEESLDFLGKEEPLLKLFADYIVNR</Hsp_hseq>
+      <Hsp_midline>L+  +A L    T +  +M Y    GGKR+RP LV AT     V +      A AVE IH YSLIHDDLP MDDDD RRG  T H  +GE  A+LAGDALQTLAF  L+   + E S +D + ++  LASASG  GM GGQ LD++ E + + L  LE +H +KTGAL+   +  GA+ AG +  +A   L+ +A +IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE ARK+   L +  R     LAE+SLD        L+  ADYI+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_207961137.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. Te-1] &gt;gb|QTD41729.1| polyprenyl synthetase family protein [Sporosarcina sp. Te-1]</Hit_def>
+  <Hit_accession>WP_207961137</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>2.36001e-60</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>DSMAYSIQAGGKRIRPMLVLATLEDLHASSEDAVAVACAVEMIHTYSLIHDDLPSMDDDDFRRGKPTNHKVYGEAIAVLAGDALQTLAFKQLS--TLKETHPLDALRIITLLADASGPRGMVGGQVLDIEGEHRSLSLEQLETVHLHKTGALLSFCIEAGAVLA-KADEEQIAKLKDYARNIGLAFQIKDDILDITSTTEQLGKTAGSDAEREKSTYPALLGLEGATERLQEHHRFALESIRFLPD---DQPLLGLFADYIVDRN</Hsp_hseq>
+      <Hsp_midline>++M Y    GGKR+RP LV AT      S+    A A AVE IH YSLIHDDLP+MDDDD RRG PT H  +GEA A+LAGDALQTLAF  LS   + E    D + +I+ LA ASG  GM GGQ LD++ E + + L+ LE +H HKTGAL+   +  GA+ A       +  L  YA +IGLAFQ++DDILD+   T  LGK  G+D +  KSTYPALLGLE A ++ ++    A +S++ L +   D   L   ADYI+ RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_179391748.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. JAI121] &gt;gb|NYF24625.1| geranylgeranyl diphosphate synthase type II [Sporosarcina sp. JAI121]</Hit_def>
+  <Hit_accession>WP_179391748</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>3.63291e-60</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>NQALSRFIAPLPFQNTPVVE------------------TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAG-DKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQL-AEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>NEKLQRFIT----EKIPVIDDRLNSMLAASNVSESLKSSMTYSINAGGKRIRPLLVLATLEDLGALTEDALTVACAVELVHTYSLIHDDLPCMDDDDFRRGKPTNHIVYGEAVAVLAGDALQALAFGSLT--HLQETSALDALRIIRLLADASGATGMVGGQVLDIEGETKKLSLSELETVHINKTGALLSFCIEAGAILAGLDEEKSA--ELKRFAYNIGLAFQIQDDILDITSTTEELGKTVGSDATSDKSTYPSLLGLEGAVERLEEHHQFAKESIAFLEAEHPM----LGLFADYIVNR</Hsp_hseq>
+      <Hsp_midline>N+ L RFI     +  PV++                  +M Y    GGKR+RP LV AT    G  T      A AVE +H YSLIHDDLP MDDDD RRG PT H+ +GEA A+LAGDALQ LAF  L+   + E S  D + +I  LA ASG  GM GGQ LD++ E K + L  LE +H +KTGAL+   +  GA+ AG D+ + A   L ++A +IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE A ++  +    A++S+  L AE  +    L   ADYI+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_099689383.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P13] &gt;gb|PIC63292.1| farnesyl-diphosphate synthase [Sporosarcina sp. P13]</Hit_def>
+  <Hit_accession>WP_099689383</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>4.36384e-60</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDA--PAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGA-LSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMTYSVEAGGKRIRPLLVLAVLH--DLNSDSADALRVAASVEFIHTYSLIHDDLPCMDDDDYRRGKPTNHTVFGEDIATLAGDAMQAMAFQAL--AELRETNVSDALELVGLLAKASGAQGMVKGQVLDMKGEQRALPLAELEEVHIHKTGALLSYCIEAGAVLAQATEEQRT--QLRRFSKNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGARAQLKERHEEALDALQSIG---LGNSVLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A  H   +++++ DA   AA+VE IH YSLIHDDLP MDDDD RRG PT H  FGE  A LAGDA+Q +AF  L  A++ E +  D + ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA L+   + +R    L +++++IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR + ++  ++A  +L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_147058882.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina luteola] &gt;dbj|GEN84225.1| farnesyl diphosphate synthase [Sporosarcina luteola]</Hit_def>
+  <Hit_accession>WP_147058882</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.20234e-59</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>QANQALSRFIAPLPFQNTP--VVETMQYGALLGGKRLRPFLVYATGHMF-GVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>QIDDEMNRLIAS---EKSPANLKDSMLYSVKAGGKRIRPLLVLAVLEDFDKVSGDDLKV-ACASELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEATAVLAGDALQTRAFGIL--ASLQHTSSEKMVKLITLLANASGANGMVGGQILDMEGETALLSLPELEEVHMQKTGALLSFCIEAGAILA-DASESQLMQLREYARNIGLAFQIKDDILDVTSTTEQLGKTANSDAASDKSTYPSLLGLEGAQQQLEKYHKNAIESLSFLGKEN---AMLKLFADYIVHRN</Hsp_hseq>
+      <Hsp_midline>Q +  ++R IA    + +P  + ++M Y    GGKR+RP LV A    F  VS + L   A A E IH YSLIHDDLP MDDDD RRG PT H  +GEA A+LAGDALQT AF IL  A +   S    + +I+ LA+ASG  GM GGQ LD++ E   + L  LE +H  KTGAL+   +  GA+ A D     L  L +YA +IGLAFQ++DDILDV   T  LGK   +D    KSTYP+LLGLE A+++      +A +SL  L +++   + L+  ADYI+ RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_153722372.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. A4]</Hit_def>
+  <Hit_accession>WP_153722372</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.42869e-59</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRNK</Hsp_qseq>
+      <Hsp_hseq>ESMTYSVEAGGKRIRPLLVLAVLADLQKDSADALRVAAAVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKKFGEDVATLAGDAMQALAFGALS--ELRETPAEDAIELVGLLAKASGAQGMVKGQVLDMKGEQQLLPLKELEEVHIHKTGALLSFCVDAGAVLAHATDEQRKYLSV---FSRNIGLAFQIQDDILDVTATTEELGKPANSDTSSEKSTYPSLLGLDGAQKQLKDRHEQAIHALRAI---DLDQSILHLLADYIIERKK</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A        +      AAAVE IH YSLIHDDLP MDDDD RRG PT H KFGE  A LAGDA+Q LAF  LS  ++ E    D I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   V  GA+   A D+ R+ L V   ++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ A+K+ +D  + A  +L+ +    LD S L  LADYII+R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_186670550.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. BP05]</Hit_def>
+  <Hit_accession>WP_186670550</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>1.99558e-59</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQL-AEQSLDTSALEALADYIIQR</Hsp_qseq>
+      <Hsp_hseq>SMVYSINAGGKRIRPLLVLATIDDLGVESEDALTVACAAELLHTYSLIHDDLPCMDDDDFRRGKPTNHIVYGEGVAVLAGDALQTLAFGSLT--HLSETSAEDTLRIIRLLANASGAAGMVGGQMLDIEGETKKLSLPELETIHINKTGALLSFCIGAGAILAGLNEEKSAK-LENFAYHIGLAFQIQDDILDITSTTEELGKTVGSDAISEKSTYPSLLGLEGASARLAEHHQSAKDSLMFLETERPL----LGLFADYIVER</Hsp_hseq>
+      <Hsp_midline>+M Y    GGKR+RP LV AT    GV +      A A E +H YSLIHDDLP MDDDD RRG PT H+ +GE  A+LAGDALQTLAF  L+   + E S  D + +I  LA+ASG AGM GGQ LD++ E K + L  LE IH +KTGAL+   +  GA+ AG    ++   L+ +A  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE A  +  +    A+ SL  L  E+ L    L   ADYI++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_099674852.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P18a] &gt;gb|PIC80968.1| farnesyl-diphosphate synthase [Sporosarcina sp. P18a]</Hit_def>
+  <Hit_accession>WP_099674852</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.42289e-59</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVDAGGKRIRPLLVMAV--LFDMKKDSVDAVKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEQQSLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRYAHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALQSIG---LGESMLQLLADYIIERK</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  +++DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +YA +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_099692280.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P19] &gt;gb|PIC75682.1| farnesyl-diphosphate synthase [Sporosarcina sp. P19]</Hit_def>
+  <Hit_accession>WP_099692280</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>5.37916e-59</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDA--PAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVLAV--LFDMKKDSADALKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLARASGAQGMVKGQVLDMKGEQKLLPLAELEEVHIHKTGALLSYCIEAGAVLAEASDEQREQ---LRRFSHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLQARHEEAIHALQSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E K +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_029054565.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina ureae] &gt;gb|ARF12763.1| farnesyl-diphosphate synthase [Sporosarcina ureae]</Hit_def>
+  <Hit_accession>WP_029054565</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>6.81835e-59</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDA--PAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSADALKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLARASGAQGMVKGQVLDMKGEQKLLPLAELEEVHIHKTGALLSYCIEAGAVLAEATDEQREQ---LRRFSHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLQARHEEAIHALQSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E K +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_099694541.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P34] &gt;gb|PID16938.1| farnesyl-diphosphate synthase [Sporosarcina sp. P34]</Hit_def>
+  <Hit_accession>WP_099694541</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>7.67644e-59</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVDAGGKRIRPLLVMAV--LFDMKKDSVDAVKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDIATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLANASGAQGMVKGQVLDMKGEQQSLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFAHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALQSIG---LGESMLQLLADYIIERK</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  +++DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA+ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L ++A +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_099672193.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P16b] &gt;gb|PIC72157.1| farnesyl-diphosphate synthase [Sporosarcina sp. P16b]</Hit_def>
+  <Hit_accession>WP_099672193</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.04924e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVDAGGKRIRPLLVMAV--LFDMKKDSVDAVKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEQQSLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFAHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALQSIG---LGESMLQLLADYIIERK</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  +++DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L ++A +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L+ LADYII+R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_083030737.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina ureae] &gt;gb|ARF15895.1| farnesyl-diphosphate synthase [Sporosarcina ureae]</Hit_def>
+  <Hit_accession>WP_083030737</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.38848e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKQDSADAVKVAASAELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPEAAIELVGLLAKASGAQGMVKGQVLDMKGEQRLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFSHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEAIRALQSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   AA+ E IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A ++L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_099625172.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P17b] &gt;gb|PIC73771.1| farnesyl-diphosphate synthase [Sporosarcina sp. P17b]</Hit_def>
+  <Hit_accession>WP_099625172</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.74102e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMTYSIAAGGKRIRPLLVMAVLHDLNKDSADALKVAASVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPSAAIELVGLLAKASGAQGMVKGQVLDMKGEHQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQASAEQR-EQLNRFSRNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALDALQSIG---LEESVLRLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A  H     +      AA+VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+ A     +    L++++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L+ S L  LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_099637707.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P3] &gt;gb|PID23015.1| farnesyl-diphosphate synthase [Sporosarcina sp. P3]</Hit_def>
+  <Hit_accession>WP_099637707</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.77894e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSADAVKVAASAELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPEAAIELVGLLAKASGAQGMVKGQVLDMKGEQQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFSHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALRALQSIG---LGKSMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   AA+ E IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A ++L+ +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_099630065.1|</Hit_id>
+  <Hit_def>MULTISPECIES: polyprenyl synthetase family protein [unclassified Sporosarcina] &gt;gb|PID03537.1| farnesyl-diphosphate synthase [Sporosarcina sp. P2] &gt;gb|PID23507.1| farnesyl-diphosphate synthase [Sporosarcina sp. P7]</Hit_def>
+  <Hit_accession>WP_099630065</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.00276e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQS--LDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVDAGGKRIRPLLVMAV--LFDMKKDSVDAVKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEQQSLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFAHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLK-----ARHEEALLALQSIGLGESMLQLLADYIIERK</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  +++DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L ++A +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +     AR     LA QS  L  S L+ LADYII+R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_099669252.1|</Hit_id>
+  <Hit_def>MULTISPECIES: polyprenyl synthetase family protein [unclassified Sporosarcina] &gt;gb|PIC59173.1| farnesyl-diphosphate synthase [Sporosarcina sp. P10] &gt;gb|PIC62494.1| farnesyl-diphosphate synthase [Sporosarcina sp. P12(2017)]</Hit_def>
+  <Hit_accession>WP_099669252</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.48431e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDA--PAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSADALKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLQETPPAAAIELVGLLARASGAQGMVKGQVLDMKGEQKLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFSHNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLQARHEEAIHALQSIG---LGDSILHLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E K +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L  S L  LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_099661383.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P29] &gt;gb|PID00373.1| farnesyl-diphosphate synthase [Sporosarcina sp. P29]</Hit_def>
+  <Hit_accession>WP_099661383</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.65019e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSADAVKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEHQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFSRNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALHSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L  +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_099633540.1|</Hit_id>
+  <Hit_def>MULTISPECIES: polyprenyl synthetase family protein [unclassified Sporosarcina] &gt;gb|PID06616.1| farnesyl-diphosphate synthase [Sporosarcina sp. P30] &gt;gb|PID09810.1| farnesyl-diphosphate synthase [Sporosarcina sp. P31] &gt;gb|PID13389.1| farnesyl-diphosphate synthase [Sporosarcina sp. P32b]</Hit_def>
+  <Hit_accession>WP_099633540</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.65019e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAP--AAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMMYSVEAGGKRIRPLLVMAV--LFDMKKDSADAVKVASSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEHQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATDEQREQ---LRRFSRNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALHALHSIG---LGESMLQLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A   +F +  ++ DA   A++VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A D+ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L  +    L  S L+ LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_207173308.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. E16_3] &gt;gb|MBO0600304.1| polyprenyl synthetase family protein [Sporosarcina sp. E16_3]</Hit_def>
+  <Hit_accession>WP_207173308</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.08159e-58</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>NQALSRFIA-PLP---------FQNTPVVET----MQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAG-DKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>HNELQRFITEKLPIIDTKLNSLLVNTNVSETLKSSMAYSINAGGKRIRPLLVLATLEDLGAESEDALTVACAAELLHTYSLIHDDLPCMDDDDFRRGKPTNHIVYGEGVAVLAGDALQTLAFGSLT--HLVDTSPQDTLRIIRLLSEASGATGMVGGQMLDIEGETQRLSLLELETIHVNKTGALLSFCIGAGAILAGLDEDRSA--KLKDFAYHIGLAFQIQDDILDITSTTEELGKSVGSDAISEKSTYPSLLGLEGARARLAAHHQSARDSLTFLESEH---PFLGLFADYIVERK</Hsp_hseq>
+      <Hsp_midline>+  L RFI   LP           NT V ET    M Y    GGKR+RP LV AT    G  +      A A E +H YSLIHDDLP MDDDD RRG PT H+ +GE  A+LAGDALQTLAF  L+   + + S +D + +I  L+ ASG  GM GGQ LD++ E + + L  LE IH +KTGAL+   +  GA+ AG D+ R A   L  +A  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE AR +       AR SL  L  +      L   ADYI++R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_081241901.1|</Hit_id>
+  <Hit_def>MULTISPECIES: polyprenyl synthetase family protein [unclassified Sporosarcina] &gt;gb|ARD46844.1| farnesyl-diphosphate synthase [Sporosarcina sp. P33] &gt;gb|ARK23371.1| farnesyl-diphosphate synthase [Sporosarcina sp. P37] &gt;gb|PID19624.1| polyprenyl synthetase family protein [Sporosarcina sp. P35]</Hit_def>
+  <Hit_accession>WP_081241901</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.28735e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGAL--SAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMTYSVEAGGKRIRPLLVLAVLHDLKADSADALKVAASVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQALAFQAL--ADLRETPPAAAIELVGLLAKASGAQGMVKGQVLDMKGEHQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQATEQQREQ---LRRFSRNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLEGAQEQLKLRHEEALKALQAIG---LGESLLQSLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A  H     +      AA+VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q LAF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+   A ++ R     L +++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGLE A+++ +   ++A ++L+ +    L  S L++LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_149579788.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. ANT_H38] &gt;gb|KAA0966015.1| polyprenyl synthetase family protein [Sporosarcina sp. ANT_H38]</Hit_def>
+  <Hit_accession>WP_149579788</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.28735e-58</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>TMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQL-AEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>SMAYSINAGGKRIRPLLVLATLDDLGAQSDDALTIACAVELLHTYSLIHDDLPCMDDDDFRRGKPTNHIVYGEAVAVLAGDALQTLAFGSLT--HLVDTSAQDTLRIIRLLSDASGATGMVGGQMLDIEGETKKLSLSELETIHVNKTGALLSFCIGAGAILAGLDEEKSAKLKD-FAYHIGLAFQIQDDILDITSTTEELGKTVGSDAISEKSTYPSLLGLEGAMAGLAKHHQSARDSLAFLESEHSL----LGMFADYIVERK</Hsp_hseq>
+      <Hsp_midline>+M Y    GGKR+RP LV AT    G  ++     A AVE +H YSLIHDDLP MDDDD RRG PT H+ +GEA A+LAGDALQTLAF  L+   + + S +D + +I  L+ ASG  GM GGQ LD++ E K + L  LE IH +KTGAL+   +  GA+ AG    ++  + D +A  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGLE A          AR SL  L +E SL    L   ADYI++R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_207149695.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. E16_8] &gt;gb|MBO0586407.1| polyprenyl synthetase family protein [Sporosarcina sp. E16_8]</Hit_def>
+  <Hit_accession>WP_207149695</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>4.30329e-58</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>NQALSRFIAP-LPFQN---------TPVVET----MQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQL-AEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>HKELQRFITKKLPIIDAKLNSLLAATTVSETLKSSMSYSINAGGKRIRPLLVLATLEDLGVESEDALTVACVAELLHTYSLIHDDLPCMDDDDFRRGKPTNHIVYGEGVAVLAGDALQTLAFGSLT--HLSDTSAQDTLRIIRLLSDASGATGMVGGQMLDIEGETQKLSLPELETIHVNKTGALLSFCISAGAILAGVNEDKAAK-LKEYSYHIGLAFQIQDDILDITSTTEELGKTAGSDALSEKSTYPSLLGLKGAMARLAAHHQSARDSLAFLESEHSL----LGLFADYIVERK</Hsp_hseq>
+      <Hsp_midline>++ L RFI   LP  +         T V ET    M Y    GGKR+RP LV AT    GV +      A   E +H YSLIHDDLP MDDDD RRG PT H+ +GE  A+LAGDALQTLAF  L+   + + S +D + +I  L+ ASG  GM GGQ LD++ E + + L  LE IH +KTGAL+   +  GA+ AG    +A   L +Y+  IGLAFQ+QDDILD+   T  LGK  G+D    KSTYP+LLGL+ A  +       AR SL  L +E SL    L   ADYI++R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_099693650.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina sp. P26b] &gt;gb|PIC95123.1| farnesyl-diphosphate synthase [Sporosarcina sp. P26b]</Hit_def>
+  <Hit_accession>WP_099693650</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>4.89706e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMTYSIAAGGKRIRPLLVMAVLHDLNKDSADALKVATSVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPSAAIELVGLLAKASGAQGMVKGQVLDMKGEHQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQASAEQR-EQLNRFSRNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALDALQSIG---LEESVLRLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A  H     +      A +VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+ A     +    L++++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L+ S L  LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_085426111.1|</Hit_id>
+  <Hit_def>polyprenyl synthetase family protein [Sporosarcina ureae] &gt;gb|ARK20150.1| farnesyl-diphosphate synthase [Sporosarcina ureae]</Hit_def>
+  <Hit_accession>WP_085426111</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>6.00915e-58</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>ETMQYGALLGGKRLRPFLVYATGHMFGVSTNTLDAPAAAVECIHAYSLIHDDLPAMDDDDLRRGLPTCHVKFGEANAILAGDALQTLAFSILSDADMPEVSDRDRISMISELASASGIAGMCGGQALDLDAEGKHVPLDALERIHRHKTGALIRAAVRLGALSAGDKGRRALPVLDKYAESIGLAFQVQDDILDVVGDTATLGKRQGADQQLGKSTYPALLGLEQARKKARDLIDDARQSLKQLAEQSLDTSALEALADYIIQRN</Hsp_qseq>
+      <Hsp_hseq>ESMTYSIAAGGKRIRPLLVMAVLHDLNKDSADALKVAASVELIHTYSLIHDDLPCMDDDDFRRGKPTNHKVYGEDVATLSGDAMQAMAFQAL--ADLRETPPSAAIELVGLLAKASGAQGMVKGQVLDMKGEHQLLPLAELEEVHIHKTGALLSYCIEAGAVLAQASAEQR-EQLNRFSRNIGLAFQIQDDILDVTATTEQLGKPANSDTSSEKSTYPSLLGLDGAREQLKARHEEALDALQSIG---LEESVLCLLADYIIERN</Hsp_hseq>
+      <Hsp_midline>E+M Y    GGKR+RP LV A  H     +      AA+VE IH YSLIHDDLP MDDDD RRG PT H  +GE  A L+GDA+Q +AF  L  AD+ E      I ++  LA ASG  GM  GQ LD+  E + +PL  LE +H HKTGAL+   +  GA+ A     +    L++++ +IGLAFQ+QDDILDV   T  LGK   +D    KSTYP+LLGL+ AR++ +   ++A  +L+ +    L+ S L  LADYII+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>203992</Statistics_db-num>
+      <Statistics_db-len>60746997</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
